@@ -50,8 +50,6 @@ def load_data(path="../data/cora/", dataset="cora"):
     idx_val = torch.LongTensor(idx_val)
     idx_test = torch.LongTensor(idx_test)
 
-    print('Done loading {} dataset'.format(dataset))
-
     return adj, features, labels, idx_train, idx_val, idx_test
 
 
